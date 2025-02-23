@@ -1,4 +1,4 @@
-# ASCII Image Converter CLI
+# ASCII Generator
 
 ## ✨ Description
 
@@ -9,7 +9,6 @@ This tool converts images into ASCII art and saves them as PNG files. It provide
 Requirements:
 
 - Rust & Cargo installed
-- Dependencies are installed automatically
 
 ```sh
 # Clone the repository
