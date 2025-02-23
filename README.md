@@ -12,13 +12,13 @@ Requirements:
 
 ```sh
 # Clone the repository
-git clone https://github.com/your-repo/ascii_converter_cli.git
-cd ascii_converter_cli
+git clone https://github.com/alex-ruhl/ascii_generator.git
+cd ascii_generator
 
 # Compile
 cargo build --release
 
-# The CLI tool is available at ./target/release/ascii_converter
+# The CLI tool is available at ./target/release/ascii_generator
 ```
 
 ## 🔎 Usage
@@ -26,7 +26,7 @@ cargo build --release
 The tool offers several options that can be configured via the command line:
 
 ```sh
-./ascii_converter -i input.jpg -o output.png --font-size 4 --threshold 15.0
+./ascii_generator -i input.jpg -o output.png --font-size 4 --threshold 15.0
 ```
 
 ### **Available Parameters:**
@@ -42,7 +42,7 @@ The tool offers several options that can be configured via the command line:
 ## 🚀 Example
 
 ```sh
-./ascii_converter -i ./examples/swans.jpeg -o ./examples/ascii_art.png --font-size 6 --threshold 20.0
+./ascii_generator -i ./examples/swans.jpeg -o ./examples/ascii_art.png --font-size 6 --threshold 20.0
 ```
 This will generate an ASCII art image with a font size of 6px and save it as `ascii_art.png`.
 
